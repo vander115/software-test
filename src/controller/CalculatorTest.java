@@ -49,5 +49,12 @@ public class CalculatorTest {
 		
 		assertEquals("Deveria dividir números inteiros: ", calc.division(20, 0), 2);
 	}
+	
+	@Test
+	public void IncrementTest() {
+		calc.incrementNumber = 20;
+		calc.increment();
+		assertEquals(calc.incrementNumber, 20 + 1);
+	}
 
 }

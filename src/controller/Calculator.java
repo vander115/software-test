@@ -2,6 +2,8 @@ package controller;
 
 public class Calculator {
 	
+	public int incrementNumber;
+	
 	public int sum(int x, int y) {
 		
 		return x + y;
@@ -12,5 +14,13 @@ public class Calculator {
 		
 		return numerator / divisor;
 		
+	}
+	
+	public void message() {
+		System.out.println();
+	}
+	
+	public void increment() {
+		incrementNumber++;
 	}
 }
