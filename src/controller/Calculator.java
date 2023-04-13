@@ -7,4 +7,10 @@ public class Calculator {
 		return x + y;
 		
 	}
+	
+	public float division(int numerator, int divisor) {
+		
+		return numerator / divisor;
+		
+	}
 }
